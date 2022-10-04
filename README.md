@@ -4,13 +4,6 @@
 - Nama: Reza Maulana Alfitra
 - Nim: 19106050032
 
-## Struktur Basis Data
-- users (mahasiswa)
-- dosen
-- matakuliah
-- ruang
-- jadwal_kuliah
-
 ## Requirement
 - composer
 - php8
@@ -19,9 +12,17 @@
 ## Install
 - ```composer install```
 - duplicate `.env.example` then rename to `.env`
+- setup database in `.env`
 - ```php artisan key:generate```
 - ```php artisan migrate```
 - ```php artisan server```
+
+## Struktur Basis Data
+- users (mahasiswa)
+- dosen
+- matakuliah
+- ruang
+- jadwal_kuliah
 
 ## Relasi Basis Data
 ![Relasi Database](public/img/Screenshot_95.png)
