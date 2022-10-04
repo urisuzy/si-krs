@@ -11,6 +11,18 @@
 - ruang
 - jadwal_kuliah
 
+## Requirement
+- composer
+- php8
+- mysql
+
+## Install
+- ```composer install```
+- duplicate `.env.example` then rename to `.env`
+- ```php artisan key:generate```
+- ```php artisan migrate```
+- ```php artisan server```
+
 ## Relasi Basis Data
 ![Relasi Database](public/img/Screenshot_95.png)
 
